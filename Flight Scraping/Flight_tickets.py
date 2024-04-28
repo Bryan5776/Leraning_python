@@ -7,6 +7,7 @@ import os
 import requests
 import json
 
+#json to pandas tutorial = https://github.com/MrFuguDataScience/JSON/tree/master
 
 r = requests.get('https://serpapi.com/search.json?engine=google_flights&departure_id=PEK&arrival_id=AUS&outbound_date=2024-04-28&return_date=2024-05-04&currency=USD&hl=en')
 
@@ -25,12 +26,29 @@ params = {
 
 
 
-search = serpapi.search(params)
-results = search.as_dict()
+#search = serpapi.search(params)
+#results = search.as_dict()
 
-json_file = json.dumps(results,indent=4)
+#json_file = json.dumps(results,indent=4)
 
-print (json_file)
-with open("flight.json","w") as outfile:
-    outfile.write(json_file)
+#print (json_file)
+#with open("flight.json","w") as outfile:
+#    outfile.write(json_file)
 
+data = json.load(open('Flight Scraping/flight.json'))
+datadf = pd.json_normalize(data,'other_flights')
+print(datadf)
+f=[]
+
+for i in datadf:
+    f.append(i)
+
+df = pd.DataFrame(f)
+#datadf = datadf.other_flights.values.tolist()
+
+#df = pd.DataFrame(datadf.tolist())['other_flights']
+
+
+#bn=pd.DataFrame(df.features.values.tolist())['other_flights']
+
+print(df)
