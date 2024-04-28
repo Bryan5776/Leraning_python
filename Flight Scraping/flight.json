@@ -1,0 +1,471 @@
+{
+    "search_metadata": {
+        "id": "662d8971fdca3e6dd11d36af",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/a85539f5a48d64e2/662d8971fdca3e6dd11d36af.json",
+        "created_at": "2024-04-27 23:25:37 UTC",
+        "processed_at": "2024-04-27 23:25:37 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+BQN+from+ALB+on+2024-07-18+through+2024-07-25",
+        "raw_html_file": "https://serpapi.com/searches/a85539f5a48d64e2/662d8971fdca3e6dd11d36af.html",
+        "prettify_html_file": "https://serpapi.com/searches/a85539f5a48d64e2/662d8971fdca3e6dd11d36af.prettify",
+        "total_time_taken": 1.71
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "departure_id": "ALB",
+        "arrival_id": "BQN",
+        "outbound_date": "2024-07-18",
+        "return_date": "2024-07-25",
+        "currency": "USD"
+    },
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Albany International Airport",
+                        "id": "ALB",
+                        "time": "2024-07-18 06:09"
+                    },
+                    "arrival_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-18 07:10"
+                    },
+                    "duration": 61,
+                    "airplane": "Bombardier Regional Jet 550",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 4421",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 80 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-18 19:13"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeropuerto Internacional Rafael Hern\u00e1ndez",
+                        "id": "BQN",
+                        "time": "2024-07-18 23:09"
+                    },
+                    "duration": 236,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 569",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 193 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 723,
+                    "name": "Newark Liberty International Airport",
+                    "id": "EWR"
+                }
+            ],
+            "total_duration": 1020,
+            "carbon_emissions": {
+                "this_flight": 274000,
+                "typical_for_this_route": 328000,
+                "difference_percent": -16
+            },
+            "price": 667,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJYld4Sk5UZDNNblIwUjFsQlJtZHRVR2RDUnkwdExTMHRMUzB0Y0dwaVkzZ3hPRUZCUVVGQlIxbDBhVmhKU2tSV1RtRkJFZ3hWUVRRME1qRjhWVUUxTmprYUN3amtpQVFRQWhvRFZWTkVPQnh3NUlnRSIsW1siQUxCIiwiMjAyNC0wNy0xOCIsIkVXUiIsbnVsbCwiVUEiLCI0NDIxIl0sWyJFV1IiLCIyMDI0LTA3LTE4IiwiQlFOIixudWxsLCJVQSIsIjU2OSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Albany International Airport",
+                        "id": "ALB",
+                        "time": "2024-07-18 11:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-18 12:15"
+                    },
+                    "duration": 70,
+                    "airplane": "Bombardier Regional Jet 550",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 4165",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 80 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-18 19:13"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeropuerto Internacional Rafael Hern\u00e1ndez",
+                        "id": "BQN",
+                        "time": "2024-07-18 23:09"
+                    },
+                    "duration": 236,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 569",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 193 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 418,
+                    "name": "Newark Liberty International Airport",
+                    "id": "EWR"
+                }
+            ],
+            "total_duration": 724,
+            "carbon_emissions": {
+                "this_flight": 274000,
+                "typical_for_this_route": 328000,
+                "difference_percent": -16
+            },
+            "price": 695,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJYld4Sk5UZDNNblIwUjFsQlJtZHRVR2RDUnkwdExTMHRMUzB0Y0dwaVkzZ3hPRUZCUVVGQlIxbDBhVmhKU2tSV1RtRkJFZ3hWUVRReE5qVjhWVUUxTmprYUN3ak5uZ1FRQWhvRFZWTkVPQnh3elo0RSIsW1siQUxCIiwiMjAyNC0wNy0xOCIsIkVXUiIsbnVsbCwiVUEiLCI0MTY1Il0sWyJFV1IiLCIyMDI0LTA3LTE4IiwiQlFOIixudWxsLCJVQSIsIjU2OSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Albany International Airport",
+                        "id": "ALB",
+                        "time": "2024-07-18 19:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-07-18 20:36"
+                    },
+                    "duration": 96,
+                    "airplane": "Embraer ERJ-135/145",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 4236",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Carbon emissions estimate: 100 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-07-19 06:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-19 07:17"
+                    },
+                    "duration": 77,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 2455",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 49 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-19 19:13"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeropuerto Internacional Rafael Hern\u00e1ndez",
+                        "id": "BQN",
+                        "time": "2024-07-19 23:09"
+                    },
+                    "duration": 236,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 569",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 193 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 564,
+                    "name": "Dulles International Airport",
+                    "id": "IAD",
+                    "overnight": true
+                },
+                {
+                    "duration": 716,
+                    "name": "Newark Liberty International Airport",
+                    "id": "EWR"
+                }
+            ],
+            "total_duration": 1689,
+            "carbon_emissions": {
+                "this_flight": 344000,
+                "typical_for_this_route": 328000,
+                "difference_percent": 5
+            },
+            "price": 704,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJYld4Sk5UZDNNblIwUjFsQlJtZHRVR2RDUnkwdExTMHRMUzB0Y0dwaVkzZ3hPRUZCUVVGQlIxbDBhVmhKU2tSV1RtRkJFaE5WUVRReU16WjhWVUV5TkRVMWZGVkJOVFk1R2dzSS9xVUVFQUlhQTFWVFJEZ2NjUDZsQkE9PSIsW1siQUxCIiwiMjAyNC0wNy0xOCIsIklBRCIsbnVsbCwiVUEiLCI0MjM2Il0sWyJJQUQiLCIyMDI0LTA3LTE5IiwiRVdSIixudWxsLCJVQSIsIjI0NTUiXSxbIkVXUiIsIjIwMjQtMDctMTkiLCJCUU4iLG51bGwsIlVBIiwiNTY5Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Albany International Airport",
+                        "id": "ALB",
+                        "time": "2024-07-18 11:21"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-07-18 12:48"
+                    },
+                    "duration": 147,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1719",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 108 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-07-18 14:22"
+                    },
+                    "arrival_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-18 17:54"
+                    },
+                    "duration": 152,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 725",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 106 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-07-18 19:13"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeropuerto Internacional Rafael Hern\u00e1ndez",
+                        "id": "BQN",
+                        "time": "2024-07-18 23:09"
+                    },
+                    "duration": 236,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 569",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 193 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 94,
+                    "name": "Chicago O'Hare International Airport",
+                    "id": "ORD"
+                },
+                {
+                    "duration": 79,
+                    "name": "Newark Liberty International Airport",
+                    "id": "EWR"
+                }
+            ],
+            "total_duration": 708,
+            "carbon_emissions": {
+                "this_flight": 409000,
+                "typical_for_this_route": 328000,
+                "difference_percent": 25
+            },
+            "price": 956,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJYld4Sk5UZDNNblIwUjFsQlJtZHRVR2RDUnkwdExTMHRMUzB0Y0dwaVkzZ3hPRUZCUVVGQlIxbDBhVmhKU2tSV1RtRkJFaEpWUVRFM01UbDhWVUUzTWpWOFZVRTFOamthQ3dpYTZnVVFBaG9EVlZORU9CeHdtdW9GIixbWyJBTEIiLCIyMDI0LTA3LTE4IiwiT1JEIixudWxsLCJVQSIsIjE3MTkiXSxbIk9SRCIsIjIwMjQtMDctMTgiLCJFV1IiLG51bGwsIlVBIiwiNzI1Il0sWyJFV1IiLCIyMDI0LTA3LTE4IiwiQlFOIixudWxsLCJVQSIsIjU2OSJdXV0="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 667,
+        "price_level": "high",
+        "typical_price_range": [
+            370,
+            620
+        ],
+        "price_history": [
+            [
+                1712376000,
+                664
+            ],
+            [
+                1712462400,
+                671
+            ],
+            [
+                1712548800,
+                671
+            ],
+            [
+                1712635200,
+                664
+            ],
+            [
+                1712721600,
+                664
+            ],
+            [
+                1712808000,
+                671
+            ],
+            [
+                1712894400,
+                671
+            ],
+            [
+                1712980800,
+                684
+            ],
+            [
+                1713067200,
+                684
+            ],
+            [
+                1713153600,
+                661
+            ],
+            [
+                1713240000,
+                661
+            ],
+            [
+                1713326400,
+                623
+            ],
+            [
+                1713412800,
+                623
+            ],
+            [
+                1713499200,
+                653
+            ],
+            [
+                1713585600,
+                653
+            ],
+            [
+                1713672000,
+                653
+            ],
+            [
+                1713758400,
+                653
+            ],
+            [
+                1713844800,
+                653
+            ],
+            [
+                1713931200,
+                653
+            ],
+            [
+                1714017600,
+                667
+            ],
+            [
+                1714104000,
+                653
+            ],
+            [
+                1714190400,
+                667
+            ]
+        ]
+    }
+}
