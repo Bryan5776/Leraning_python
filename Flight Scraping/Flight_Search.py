@@ -14,7 +14,7 @@ import serpapi
 
 class flight:
     
-    def __init__(self,date1,date2,price,layover_duration,departure,arrival):
+    def __init__(self,date1: tuple ,date2: tuple,price :str,layover_duration:int,departure:str,arrival:str):
         
         self.date1 = date1
         self.date2 = date2
@@ -22,38 +22,42 @@ class flight:
         self.layover_duration = layover_duration
         self.departure =  departure
         self.arrival = arrival
-
-    @staticmethod
+        self.year1 = self.date1[0] 
+        self.month1 = self.date1[1]
+        self.day1 = self.date1[2]
+        self.year2 = self.date2[0]
+        self.month2 = self.date2[1]
+        self.day2 = self.date2[2]
+    
+    
     def convert(n):
         return str(datetime.timedelta(minutes = n)).replace(',','')
+    
     def daterange(start_date, end_date):
         for n in range(int((end_date - start_date).days)):
             yield start_date + timedelta(n)
     def main(self):
-        date_lst=[]
-        year1 = self.date1[0]
-        month1 = self.date1[1]
-        day1 = self.date1[2]
-        year2 = self.date2[0]
-        month2 = self.date2[1]
-        day2 = self.date2[2]
-
-
-
-        start_date = date(year1,month1,day1)
-        end_date = date(year2,month2,day2)
-        for single_date in daterange(start_date, end_date):
+        date_lst=[]        
+        start_date = date(self.year1,self.month1,self.day1)
+        end_date = date(self.year2,self.month2,self.day2)
+        for single_date in self.daterange(start_date, end_date):
             date_lst.append(single_date.strftime("%Y-%m-%d"))
     #json to pandas tutorial = https://github.com/MrFuguDataScience/JSON/tree/master
-        if len(date_lst) > 6:
-            sys.exit()
+        #if len(date_lst) > 6:
+            #sys.exit()
         print(date_lst)
-
-
+        return print(date_lst)
 
 if __name__ == '__main__':
     main()
 
+#f = flight()
+#date1 = (2024, 1,20)
+#date2 = (2024,3,25)
+
+#x = f(date1,date2,None,None,None,None)
+
+#print(x)
 
 '''
         def main():     
