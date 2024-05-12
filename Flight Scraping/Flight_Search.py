@@ -1,13 +1,7 @@
 
 from datetime import date, timedelta
 import pandas as pd
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup
-import os
 import sys
-import requests
-import json
 import datetime
 import serpapi
 
@@ -29,8 +23,7 @@ class flight:
         self.month2 = self.date2[1]
         self.day2 = self.date2[2]
     
-        self.main()
-
+        self.find()
     def convert(self,n):
         return str(datetime.timedelta(minutes = n)).replace(',','')
     
@@ -119,7 +112,8 @@ class flight:
         flight_df = pd.DataFrame(flight_dict)
         return flight_df
     
-    def main(self):
+    def find(self):
+        global maindf
         date_lst=[]
         maindf = pd.DataFrame()
         start_date = date(self.year1,self.month1,self.day1)
@@ -127,7 +121,6 @@ class flight:
         for single_date in self.daterange(start_date, end_date):
             date_lst.append(single_date.strftime("%Y-%m-%d"))
     #json to pandas tutorial = https://github.com/MrFuguDataScience/JSON/tree/master
-        print(date_lst)
         if len(date_lst) > 6:
             sys.exit()
 
@@ -151,10 +144,4 @@ class flight:
             x = self.sep_info(params)
             maindf=pd.concat([maindf,x], ignore_index=True)
             i += 1
-            print(x)
-        return print(maindf)
-
-date1 = (2024, 10,20)
-date2 = (2024,10,22)
-y = flight(date1,date2,2000,"30,1440","ALB","BQN")
-print(y)
+        return maindf
